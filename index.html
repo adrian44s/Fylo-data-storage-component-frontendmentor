@@ -11,31 +11,31 @@
     <title>Frontend Mentor | Fylo data storage component</title>
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-            <div class="leftcontent">
-                <div class="logosection">
-                    <img class="logo" src="./images/logo.svg" alt="fylo-logo">
-                    <p class="logo">Fylo</p>
+    <div id="container">
+        <div id="maincontent">
+        <div id="leftcontent" class="content">
+                <div id="logosection">
+                    <img id="logo" src="./images/logo.svg" alt="fylo-logo">
                 </div>
-                <div class="actions">
+                <div id="actions">
                     <button class="actionbutton"><img class="actionimage" src="./images/icon-document.svg" alt="document-button"></button>
                     <button class="actionbutton"><img class="actionimage" src="./images/icon-upload.svg" alt="upload-button"></button>
                     <button class="actionbutton"><img class="actionimage" src="./images/icon-folder.svg" alt="folder-button"></button>
                 </div>
             </div>
-            <div class="rightcontent">
-                <p class="usage">You’ve used 815 GB of your storage</p>
-                <div class="usagebar">
-                    <div class="usagefill"></div>
-                    <div class="usageball"></div>
-                    <p class="usageminlimit">0 GB</p>
-                    <p class="usagemaxlimit">1000 GB</p>
+            <div id="rightcontent" class="content">
+                <p id="usage">You’ve used <strong id="currentusage">815 GB</strong> of your storage</p>
+                <div id="usagebar">
+                    <div id="usagefill"></div>
+                    <div id="usageball"></div>
+
                 </div>
-                <p class="usageleft"><span class="usageleftvalue">185</span>GB Left</p>
-            </div>
+                <p id="usageminlimit" class="usagelimit">0 GB</p>
+                <p id="usagemaxlimit" class="usagelimit">1000 GB</p>
+                <p id="usageleft"><span id="usageremainning">185</span>GB Left</p>
         </div>
-        <div class="background"></div>
+    </div>
+        <div id="background"></div>
         <div class="attribution">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
             Coded by <a href="https://github.com/adrian44s" target="_blank">Adrian</a>.
